@@ -1,0 +1,14 @@
+{  
+    "name": "LinkedInAutoConnect",
+    "description": "Send connection invites automatically",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "/Icons/icon16.png"
+    },
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ]
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<style>
+		body {
+			width: 250px;
+			height: 200px;
+			background-color: rgb(3, 31, 48);
+			color: white;
+			font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+			margin: 0;
+		}
+		.title {
+			width: 100%;
+			height: 20%;
+			background-color: rgb(10, 55, 83);
+			font-size: large;
+		}
+		.info {
+			width: 100%;
+			height: 20%;
+		}
+		.info p {
+			width: 100%;
+			height: 100%;
+			font-size: medium;
+			text-align: center;
+		}
+		.flexCenter {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.button-area {
+			width: 100%;
+			height: 40%;
+		}
+		.button-area button {
+			outline: none;
+			border: 2px solid cyan;
+			width: 120px;
+			height: 50px;
+			cursor: pointer;
+			background-color: transparent;
+			color: white;
+			font-size: large;
+			transition-duration: 0.3s;
+		}
+		.button-area button:hover {
+			background-color: cyan;
+			color: black;
+		}
+	</style>
+	<body>
+		<div class="title flexCenter">AutoConnect</div>
+		<div class="info">
+			<p>Click to start sending invites</p>
+		</div>
+		<div class="button-area flexCenter">
+			<button id="clicked">Start</button>
+		</div>
+	</body>
+	<script src="/main.js"></script>
+</html>
